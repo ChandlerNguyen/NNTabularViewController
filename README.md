@@ -22,7 +22,7 @@ pod 'NNTabularViewController'
 
 ## Author
 
-ChandlerNguyen, nang.nguyen@evizi.com
+Nang Nguyen
 
 ## License
 
