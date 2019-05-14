@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2531724F8F2CAA5FBB4E8221 /* Pods_NNTabularViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8909EAA36F35D0AA9C651A02 /* Pods_NNTabularViewController_Example.framework */; };
+		5CB4EB42228A78FF00D9FE8D /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4EB3C228A78FE00D9FE8D /* ViewController3.swift */; };
+		5CB4EB43228A78FF00D9FE8D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4EB3D228A78FE00D9FE8D /* ViewController2.swift */; };
+		5CB4EB44228A78FF00D9FE8D /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB4EB3E228A78FE00D9FE8D /* ViewController1.xib */; };
+		5CB4EB45228A78FF00D9FE8D /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB4EB3F228A78FF00D9FE8D /* ViewController2.xib */; };
+		5CB4EB46228A78FF00D9FE8D /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB4EB40228A78FF00D9FE8D /* ViewController3.xib */; };
+		5CB4EB47228A78FF00D9FE8D /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4EB41228A78FF00D9FE8D /* ViewController1.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,10 +35,16 @@
 
 /* Begin PBXFileReference section */
 		02E87EDD154EEA381ECFDED0 /* Pods-NNTabularViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTabularViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NNTabularViewController_Tests/Pods-NNTabularViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1865A677745E1EF3BC7766C2 /* NNTabularViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NNTabularViewController.podspec; path = ../NNTabularViewController.podspec; sourceTree = "<group>"; };
+		1865A677745E1EF3BC7766C2 /* NNTabularViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NNTabularViewController.podspec; path = ../NNTabularViewController.podspec; sourceTree = "<group>"; };
 		3183BCF7A44EA61F35C43F21 /* Pods-NNTabularViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTabularViewController_Tests.release.xcconfig"; path = "Target Support Files/Pods-NNTabularViewController_Tests/Pods-NNTabularViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		450A425431319E9CE7EDB9DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		450A425431319E9CE7EDB9DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		46339D28F93EFDD78CC6349B /* Pods_NNTabularViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNTabularViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB4EB3C228A78FE00D9FE8D /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		5CB4EB3D228A78FE00D9FE8D /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		5CB4EB3E228A78FE00D9FE8D /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		5CB4EB3F228A78FF00D9FE8D /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		5CB4EB40228A78FF00D9FE8D /* ViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController3.xib; sourceTree = "<group>"; };
+		5CB4EB41228A78FF00D9FE8D /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NNTabularViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNTabularViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +55,7 @@
 		607FACE51AFB9204008FA782 /* NNTabularViewController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNTabularViewController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B298AB2C2D9984CC5210B28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6B298AB2C2D9984CC5210B28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6D76A87E24B5AD82B6DA4FA4 /* Pods-NNTabularViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTabularViewController_Example.debug.xcconfig"; path = "Target Support Files/Pods-NNTabularViewController_Example/Pods-NNTabularViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8909EAA36F35D0AA9C651A02 /* Pods_NNTabularViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNTabularViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4B886127BB19060D56ADEC /* Pods-NNTabularViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTabularViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-NNTabularViewController_Example/Pods-NNTabularViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +89,6 @@
 				02E87EDD154EEA381ECFDED0 /* Pods-NNTabularViewController_Tests.debug.xcconfig */,
 				3183BCF7A44EA61F35C43F21 /* Pods-NNTabularViewController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,6 +116,12 @@
 		607FACD21AFB9204008FA782 /* Example for NNTabularViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5CB4EB41228A78FF00D9FE8D /* ViewController1.swift */,
+				5CB4EB3E228A78FE00D9FE8D /* ViewController1.xib */,
+				5CB4EB3D228A78FE00D9FE8D /* ViewController2.swift */,
+				5CB4EB3F228A78FF00D9FE8D /* ViewController2.xib */,
+				5CB4EB3C228A78FE00D9FE8D /* ViewController3.swift */,
+				5CB4EB40228A78FF00D9FE8D /* ViewController3.xib */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -228,6 +245,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,6 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB4EB46228A78FF00D9FE8D /* ViewController3.xib in Resources */,
+				5CB4EB45228A78FF00D9FE8D /* ViewController2.xib in Resources */,
+				5CB4EB44228A78FF00D9FE8D /* ViewController1.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -270,10 +291,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NNTabularViewController_Example/Pods-NNTabularViewController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NNScrollableSegmentedControl/NNScrollableSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/NNTabularViewController/NNTabularViewController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NNScrollableSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NNTabularViewController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,8 +373,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB4EB47228A78FF00D9FE8D /* ViewController1.swift in Sources */,
+				5CB4EB43228A78FF00D9FE8D /* ViewController2.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				5CB4EB42228A78FF00D9FE8D /* ViewController3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
