@@ -13,7 +13,7 @@ public class NNTabularViewController: UIViewController {
         let segmentedControl = NNScrollableSegmentedControl(frame: .zero)
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false
         segmentedControl.style = .textOnly
-        segmentedControl.valueChanged = { [weak self] (selectedSegmentIndex) in
+        segmentedControl.valueDidChange = { [weak self] (_,selectedSegmentIndex) in
             self?.pageViewController.showPage(selectedSegmentIndex)
         }
         return segmentedControl
